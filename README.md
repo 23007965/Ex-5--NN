@@ -1,4 +1,4 @@
-H3>P PARTHIBAN</H3>
+<H3>P PARTHIBAN</H3>
 <H3>212223230145</H3>
 <H3>EX. NO.5</H3>
 <H3>DATE: 28.04.2025</H3>
@@ -34,6 +34,7 @@ Step 6: Test the network for accuracy<br>
 Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 
 <H3>PROGRAM:</H3>
+
 ### IMPORT THE LIBRARIES:
 ```python
 import numpy as np
@@ -46,6 +47,7 @@ def gaussian_rbf(x, landmark, gamma=1):
 ```
 
 ### Main function for training and plotting
+
 ```python
 def end_to_end(X1, X2, ys, mu1, mu2):
     # Apply RBF transformation
